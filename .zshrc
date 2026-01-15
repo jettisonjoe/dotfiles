@@ -84,8 +84,8 @@ source $ZSH/oh-my-zsh.sh
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export LS_COLORS=$LS_COLORS:'ow=36:'
 
-# Uncomment on Windows to enable subl from WSL.
-# alias subl='"/mnt/c/Program Files/Sublime Text 3/subl.exe"'
+# On Windows, enable subl from WSL.
+alias subl='"/mnt/c/Program Files/Sublime Text/subl.exe"'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
